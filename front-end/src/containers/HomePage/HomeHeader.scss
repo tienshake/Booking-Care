@@ -1,0 +1,241 @@
+.header__container {
+    height          : 60px;
+    width           : 100%;
+    position        : sticky;
+    top             : 0;
+    background-color: white;
+    z-index         : 1000;
+
+    .header__content {
+        width  : 100%;
+        height : 100%;
+        display: flex;
+        padding: 0 170px;
+
+        .left__content {
+            width      : 25%;
+            display    : flex;
+            align-items: center;
+
+            .header__icon {
+                font-size: 25px;
+                cursor   : pointer;
+                padding  : 10px;
+                opacity  : 0.5;
+            }
+
+            .header__logo {
+                background: url(../../assets/logo.svg) center no-repeat;
+                height    : 40px;
+                width     : 160px;
+                cursor    : pointer;
+            }
+        }
+
+        .center__content {
+            width          : 50%;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+            font-size      : 12px;
+
+            .child__subtitle {
+                font-size  : 10px;
+                font-weight: 100;
+                color      : rgb(119, 117, 117);
+                cursor     : pointer;
+            }
+        }
+
+        .right__content {
+            width          : 25%;
+            display        : flex;
+            align-items    : center;
+            justify-content: flex-end;
+
+            .right__content-support {
+                display     : flex;
+                align-items : center;
+                margin-right: 10px;
+                cursor      : pointer;
+
+                h4 {
+                    padding: 0 2px;
+                    margin : 0;
+                }
+
+
+            }
+
+            .right__content-flag {
+                display        : flex;
+                align-items    : center;
+                justify-content: center;
+
+                .language__vn {
+                    margin : 0;
+                    cursor : pointer;
+                    padding: 0 5px;
+                    opacity: 0.3;
+
+                    &.active {
+                        opacity: 1;
+                        color  : rgb(245, 69, 69);
+                    }
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+
+                .language__en {
+                    margin : 0;
+                    cursor : pointer;
+                    padding: 0 5px;
+                    opacity: 0.3;
+
+                    &.active {
+                        opacity: 1;
+                        color  : rgb(42, 21, 231);
+                    }
+
+                    &:hover {
+                        opacity: 1;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.home__banner-container {
+    background     : url('../../assets/backgroud.jpg') center / cover no-repeat;
+    height         : 600px;
+    display        : flex;
+    justify-content: center;
+    overflow       : hidden;
+
+    .home__banner {
+        width           : 100%;
+        height          : 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+
+
+        .banner1 {
+            height : 50%;
+            padding: 50px 0;
+
+            .home__banner-title1 {
+                text-align: center;
+
+                h1 {
+                    text-shadow: 1px 1px 1px #333;
+                    color      : #FFFFFF;
+
+                }
+            }
+
+            .home__banner-title2 {
+                text-align: center;
+
+                p {
+                    font-size  : 32px;
+                    font-weight: 700;
+                    color      : #FFFFFF;
+                    text-shadow: 1px 1px 1px #333;
+                }
+            }
+
+            .home__banner-search {
+                display        : flex;
+                align-items    : center;
+                justify-content: center;
+                width          : 100%;
+                margin-top     : 50px;
+
+                .search__input {
+                    display      : flex;
+                    width        : 450px;
+                    height       : 50px;
+                    border-radius: 25px;
+                    overflow     : hidden;
+                    position     : relative;
+
+                    i {
+                        font-size  : 15px;
+                        width      : 50px;
+                        position   : absolute;
+                        height     : 100%;
+                        text-align : center;
+                        line-height: 50px;
+                        cursor     : pointer;
+                    }
+
+                    input {
+                        width           : 100%;
+                        flex            : 2;
+                        background-color: #f7d800;
+                        border          : none;
+                        height          : 100%;
+                        outline         : none;
+                        padding         : 0 50px;
+                    }
+                }
+            }
+
+        }
+
+        .banner2 {
+            display         : flex;
+            justify-content : center;
+            background-image: linear-gradient(rgba(255, 255, 255, -1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+            height          : 50%;
+
+            .home__banner-options {
+                display    : flex;
+                align-items: flex-end;
+
+                .options__list {
+                    display        : flex;
+                    justify-content: center;
+                    grid-gap       : 50px;
+
+                    .options__item {
+                        width          : 160px;
+                        height         : 122px;
+                        padding        : 5;
+                        display        : flex;
+                        align-items    : center;
+                        justify-content: center;
+                        flex-direction : column;
+                        cursor         : pointer;
+
+                        .options__img {
+                            width              : 50px;
+                            height             : 50px;
+                            border-radius      : 50%;
+                            // background      : url('../../assets/banner_1.png') center center no-repeat;
+                            background-color   : white;
+                            box-shadow         : 0px 1px 2px rgba(0, 0, 0, 0.5);
+                        }
+
+                        p {
+                            color      : black;
+                            text-align : center;
+                            font-weight: 520;
+                            font-size  : 18px;
+
+                            &:hover {
+                                color: #2fc0d7;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+    }
+}

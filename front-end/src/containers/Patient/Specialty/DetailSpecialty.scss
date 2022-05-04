@@ -1,0 +1,75 @@
+.detail-specialty-container {
+    background-color: #eeeeee;
+
+    .des-specialty-header {
+        min-height      : 200px;
+        margin          : 20px 150px 20px;
+        background-color: white;
+        padding         : 30px;
+        border-radius   : 8px;
+        box-shadow      : 0 1px 6px #20212447;
+    }
+
+
+
+    .des-specialty__body {
+        margin: 0 150px;
+
+        .specialty__search {
+            margin: 10px 0;
+
+            select {
+                border-radius: 5px;
+                padding      : 5px;
+                outline      : none;
+                border       : none;
+                box-shadow   : 0 1px 6px #20212447;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .each-doctor {
+        display         : flex;
+        width           : 100%;
+        padding         : 15px;
+        margin-bottom   : 20px;
+        background-color: #fff;
+        box-shadow      : 0 1px 6px #20212447;
+        border-radius   : 8px;
+
+        .each-doctor-content-left {
+            flex        : 1;
+            border-right: 1px solid #ddd;
+
+        }
+
+        .each-doctor-content-right {
+            flex   : 1;
+            padding: 10px;
+
+            .doctor-schedule {
+                .doctor-schedule__time {
+                    padding-bottom: 0;
+
+                    .book-free {
+                        padding-left: 0;
+                    }
+                }
+            }
+
+            .doctor-extraInfo {
+                .doctor-extra-info__container {
+                    padding-top : 10px;
+                    border-top  : 1px solid #ddd;
+                    margin      : 0;
+                    border-left : unset;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}

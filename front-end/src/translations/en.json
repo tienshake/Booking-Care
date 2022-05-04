@@ -1,0 +1,118 @@
+{
+    "homeHeader": {
+        "specialty": "Medical specialty",
+        "searchDoctor": "Find a doctor by specialty",
+        "health-facilities": "Health facilities",
+        "Choose-hospital-clinic": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "good-doctor": "Good doctor",
+        "Examination-package": "Examination package",
+        "General-examination": "General health check",
+        "support": "Support",
+        "welcome": "Welcome, "
+    },
+    "banner": {
+        "title1": "MEDICAL PLATFORM",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "Examination": "Examination",
+        "test": "Test",
+        "health": "Health",
+        "Specialty": "Hpecialty",
+        "far-away": "Far-away",
+        "generality": "Generality",
+        "Medicine": "Medicine",
+        "Morale": "Morale",
+        "dentistry": "Dentistry"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "User redux",
+                "product-manage": "Package manage",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin": {
+            "manage-user": "Manage user",
+            "manage-doctor": "Manage doctor",
+            "manage-admin": "Manage admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage Clinic",
+            "specialty": "specialty",
+            "manage-specialty": "Manage Specialty",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage Handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage doctor Schedule",
+            "manage-patient": "Manage doctor Patient"
+        }
+    },
+    "manage-user": {
+        "add": "Add new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "phone": "Phone Number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "save": "Save",
+        "edit": "Edit",
+        "images": "Images"
+    },
+    "home-page": {
+        "out-standing-doctor": "Outstanding Doctor of the Week",
+        "more-info": "More info"
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-doctor": "Choose Doctor",
+        "choose-date": "Choose Date",
+        "save": "Save info"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Schedule",
+            "no-schedule": "The doctor does not have any appointments during this time, please choose another time!",
+            "choose": "Choose ",
+            "book-free": " and book (free)"
+        },
+        "extra-info-doctor": {
+            "address-examination": "ADDRESS OF EXAMINATION",
+            "price-examination-up": "EXAMINATION PRICE",
+            "price-examination-down": "Examination price",
+            "see-details": "See details",
+            "hide-price-list": "Hide price list",
+            "text-payments": "The patient can pay the cost in the form of"
+        },
+        "booking-modal": {
+            "title": "Thông tin đặt lịch khám bệnh"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create more doctor information",
+            "choose-doctor": "Choose doctor",
+            "information": "Information ",
+            "add": "Add info",
+            "save": "Save user info",
+            "price": "Price of medical examination",
+            "payment": "Select a payment method",
+            "province": "Choose a province",
+            "name-clinic": "Clinic name",
+            "address-clinic": "Clinic address",
+            "note": "Note"
+        }
+    }
+}

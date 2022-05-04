@@ -1,0 +1,64 @@
+.user-table {
+    table {
+        font-family    : arial, sans-serif;
+        border-collapse: collapse;
+        width          : 100%;
+
+        .header {
+            background: linear-gradient(135deg, #22c1c3 0%, #fdbb2d 100%);
+        }
+
+        td,
+        th {
+            border    : 1px solid #dddddd;
+            text-align: left;
+            padding   : 8px;
+        }
+
+        .control {
+            width: 150px;
+
+            .btn-edit {
+                width           : 50px;
+                border          : none;
+                outline         : none;
+                color           : #704c15;
+                background-color: transparent;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+
+            .btn-delete {
+                width           : 50px;
+                border          : none;
+                outline         : none;
+                color           : red;
+                background-color: transparent;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+    }
+}
+
+.modal-header {
+    button {
+        background-color: transparent;
+        border          : none;
+
+        span {
+            font-size: 26px;
+            color    : white;
+        }
+    }
+}

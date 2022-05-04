@@ -1,0 +1,96 @@
+.doctor-schedule {
+
+    .doctor-schedule__header {
+        height: 40px;
+
+        select {
+            font-weight  : 600;
+            color        : #45c3d2;
+            border-bottom: 1px solid #ddd;
+            border-top   : none;
+            border-left  : none;
+            border-right : none;
+            cursor       : pointer;
+            outline      : none;
+            padding      : 10px;
+
+            option {
+                border-radius: 3px;
+                border       : none;
+            }
+        }
+    }
+
+    .doctor-schedule__content {
+        height: calc(100% - 40px);
+
+        .doctor-schedule__calendar {
+            padding: 10px;
+
+            span {
+                text-transform: uppercase;
+                color         : #333;
+                margin-left   : 10px;
+                font-weight   : 600;
+            }
+        }
+
+        .doctor-schedule__time {
+
+            padding: 10px 0 30px;
+
+
+            .doctor-schedule__time-btns {
+                display  : flex;
+                gap      : 15px;
+                flex-wrap: wrap;
+
+
+            }
+
+            .book-free {
+                padding    : 10px;
+                cursor     : pointer;
+                font-weight: 100;
+                display    : inline-block;
+
+                &:hover {
+                    color: #45c3d2;
+
+                }
+            }
+
+            .no-calendar {
+                padding    : 15px;
+                font-weight: 500;
+                font-size  : 15px;
+                color      : #086069;
+                font-style : italic;
+            }
+
+            .choose-day {
+                padding      : 5px 10px;
+                border       : none;
+                outline      : none;
+                min-width    : 135px;
+                font-weight  : 600;
+                color        : #333;
+                border-radius: 3px;
+                height       : 40px;
+
+                &:hover {
+                    background-color: #45c3d2;
+                    color           : white;
+                }
+
+                &.btn-en {
+                    min-width: 170px;
+                }
+            }
+
+            .btn-color {
+                background-color: #fff8ae;
+            }
+        }
+    }
+}
